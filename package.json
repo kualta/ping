@@ -12,6 +12,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@farcaster/auth-kit": "^0.2.0",
     "@hookform/resolvers": "^3.3.1",
     "@next/bundle-analyzer": "^13.5.4",
     "@prisma/client": "^5.8.1",
@@ -73,6 +74,7 @@
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.7",
     "theme-change": "^2.5.0",
+    "viem": "^2.7.8",
     "zod": "^3.22.3"
   },
   "devDependencies": {
