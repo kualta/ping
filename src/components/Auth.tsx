@@ -1,6 +1,9 @@
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
 import { Auth } from "@supabase/auth-ui-react";
 import { ThemeSupa } from "@supabase/auth-ui-shared";
+import '@farcaster/auth-kit/styles.css';
+import { AuthKitProvider } from '@farcaster/auth-kit';
+import { SignInButton } from '@farcaster/auth-kit';
 
 const PingAuth = () => {
   const supabase = useSupabaseClient();
